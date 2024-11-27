@@ -611,12 +611,23 @@ section,
 
 @media (max-width: 768px) {
   .hero h2 {
-    font-size: 32px;
+    font-size: 45px;
   }
 
   .hero p {
     font-size: 20px;
   }
+.hero img {
+  position: absolute;
+  inset: 0;
+  /* display: block; */
+  width: 160%;
+  /* height: 100%; */
+  margin-left: -200px;
+  object-fit: cover;
+  z-index: 1;
+  
+}
 }
 
 /*--------------------------------------------------------------
